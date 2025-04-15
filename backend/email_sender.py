@@ -10,6 +10,7 @@ class EmailSender:
         self.body = body
         self.password = password
         self.status = status
+        
 
     def create_message(self):
         """Create and return the MIME message."""
@@ -24,6 +25,7 @@ class EmailSender:
         """Send the email."""
         msg = self.create_message()
         server = None  # Initialize server variable
+        
 
         try:
             # Connect to Gmail's SMTP server and send the email

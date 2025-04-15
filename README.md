@@ -43,7 +43,7 @@ EMAIL_PASSWORD=your_app_specific_password_here
    Edit
    export FLASK_APP=app.py # macOS/Linux
    set FLASK_APP=app.py # Windows
-   flask run
+   flask run --host=0.0.0.0 --port=5050
    Visit: http://127.0.0.1:5000/start to trigger the notifier.
 
 🧪 Test Email
